@@ -74,3 +74,21 @@ header {
   justify-content: flex-end; /* Align items to the right */
   padding: 20px; /* Add some padding for spacing */
 }
+
+.app-container {
+  display: flex;
+}
+
+.image {
+  flex: 1; /* Make the image fill one-third of the container */
+  object-fit: cover; /* Ensure the image covers the container */
+  max-width: 33.33%; /* Ensure the image doesn't exceed one-third of the screen width */
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 20px; /* Add some padding for spacing */
+}
