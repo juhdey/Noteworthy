@@ -1,4 +1,3 @@
-/* index.css */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -37,7 +36,6 @@ h1 {
 }
 
 button {
-  margin: 0;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -67,28 +65,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
-
-header {
-  display: flex;
-  justify-content: flex-end; /* Align items to the right */
-  padding: 20px; /* Add some padding for spacing */
-}
-
-.app-container {
-  display: flex;
-}
-
-.image {
-  flex: 1; /* Make the image fill one-third of the container */
-  object-fit: cover; /* Ensure the image covers the container */
-  max-width: 33.33%; /* Ensure the image doesn't exceed one-third of the screen width */
-}
-
-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end;
-  padding: 20px; /* Add some padding for spacing */
 }
