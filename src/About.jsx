@@ -11,7 +11,7 @@ import { InstagramEmbed } from 'react-social-media-embed';
 export function About() {
     return <>
         <div className="text-center flex flex-col">
-            <h1 className="text-5xl font-bold py-8">About Us</h1>
+            <h1 className="text-6xl font-bold py-8">About Us</h1>
             <div className="w-3/5 place-self-center py-3">
                 <p>We&lsquo;re a lower-voices a cappella group known for our fun performances and fresh takes on popular songs! It always feels sunny when we perform, and not just because of our golden vests!</p>
                 <p>Since our founding in 2000, we&lsquo;ve gone million-view-viral on YouTube multiple times, released an album entirely composed of original songs, and performed at the 2022 UC Berkeley commencement.</p>
