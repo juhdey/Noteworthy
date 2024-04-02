@@ -8,7 +8,7 @@ function Member(props) {
 
 export function Members() {
     return <>
-        <h1 className="text-center text-6xl font-bold py-8">Members</h1>
+        <h1 className="text-center text-6xl font-bold py-8" name="members"><a style={{ display: 'block', position: 'relative', top: '-75px', visibility: 'hidden' }} name="members"></a>Members</h1>
         <div className="flex flex-col">
             <div className="place-self-center grid grid-cols-3 gap-3 p-5">
                 <Member name="Maya Rotenberg" voice="Tenor 1" />

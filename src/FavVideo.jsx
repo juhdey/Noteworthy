@@ -10,7 +10,7 @@ import { YouTubeEmbed } from 'react-social-media-embed';
 
 export function FavVideo() {
     return <div className="text-center flex flex-col">
-        <h1 className="text-6xl font-bold py-8">Our Favorite Videos</h1>
+        <h1 className="text-6xl font-bold py-8"><a style={{ display: 'block', position: 'relative', top: '-75px', visibility: 'hidden' }} name="favvideo"></a>Our Favorite Videos</h1>
         <Carousel className="place-self-center py-4 w-1/2">
             <CarouselContent>
                 <CarouselItem><div style={{ display: 'flex', justifyContent: 'center' }}><YouTubeEmbed url="https://www.youtube.com/watch?v=n0p8MxT8AxI" /></div></CarouselItem>
