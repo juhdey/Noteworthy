@@ -2,6 +2,7 @@ import { NavigationBar } from "@/NavigationBar"
 import { Intro } from "@/Intro"
 import { About } from "@/About"
 import { FavVideo } from "@/FavVideo"
+import { Members } from "@/Members"
 
 export default function App() {
     return (
@@ -10,6 +11,7 @@ export default function App() {
             <Intro />
             <About />
             <FavVideo />
+            <Members />
         </>
     );
 }
